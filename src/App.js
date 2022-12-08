@@ -20,6 +20,8 @@ function App() {
     goalNameRef.current.value = null;
   };
 
+
+  // 
   return (
     <div className="App">
       <h1 style={{ textAlign: "center" }}>目標管理ツール</h1>
