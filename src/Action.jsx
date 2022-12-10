@@ -2,8 +2,8 @@ import React from 'react'
 
 const Action = ({ action }) => {
     return (
-        <div>
-            {action.name}
+        <div className="action_box">
+            <div>・{action.name}</div>
         </div>
     );
 };
