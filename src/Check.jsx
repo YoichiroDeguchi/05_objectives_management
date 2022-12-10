@@ -2,7 +2,9 @@ import React from 'react'
 
 const Check = ({ check }) => {
     return (
-        <div>{check.name}</div>
+        <div className="check_box">
+            {check.name}
+        </div>
     );
 };
 

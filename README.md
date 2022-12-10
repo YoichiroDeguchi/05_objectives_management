@@ -1,4 +1,4 @@
-# 目標管理ツール
+# objectives management
 
 ## DEMO
 

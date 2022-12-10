@@ -7,3 +7,53 @@
   display: flex;
   flex-direction: column;
 }
+
+.action_box {
+  background: #fff;
+  border-left: solid 10px #3FA7C9;
+}
+
+.check_box {
+  background: #fff;
+  border-left: solid 10px #C0D7F0;
+}
+
+
+
+/* ボタン */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: inherit;
+  box-sizing: inherit;
+}
+
+.signInButton,
+.signOutButton {
+  color: #fff;
+  background-color: #eb6100;
+  margin-top: 14px;
+  padding: 0px 40px;
+  border: none;
+  cursor: pointer;
+  font-weight: 800;
+  font-size: 1.2rem;
+}
+
+.signInButton:hover,
+.signOutButton:hover {
+  color: #fff;
+  background: #f56500;
+}
+
+.signInBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 300px 0px;
+}
+
+.signOutBox {
+  text-align: center;
+}

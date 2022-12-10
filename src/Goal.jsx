@@ -47,7 +47,7 @@ const Goal = ({ goal }) => {
 
     return (
         <div className='goal_box'>
-            <h2>{goal.name}</h2>
+            <h2>{goal.goal}</h2>
             <ActionList actions={actions} />
             <CheckList checks={checks} />
             <div>
